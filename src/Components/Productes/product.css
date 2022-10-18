@@ -2,15 +2,16 @@
   margin: 0;
   padding: 0;
 }
-.catogaries img {
+.category img {
   width: 200px;
   border-radius: 8px;
   margin-right: 30px;
   margin-bottom: 54px;
   cursor: pointer;
+  height: 120px;
 }
 
-.catogaries {
+.category {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,7 +32,7 @@
 .full_banner  {
   background-image: url("../../images_js/istockphoto-1300836710-170667a.jpg");
     width: 100%;
-  height: 60vh;
+  height: 70vh;
   background-repeat: no-repeat;
   background-size: cover;
   /* object-fit: contain; */
