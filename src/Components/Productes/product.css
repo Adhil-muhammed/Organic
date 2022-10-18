@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.catogaries img {
+  width: 200px;
+  border-radius: 8px;
+  margin-right: 30px;
+  margin-bottom: 54px;
+  cursor: pointer;
+}
+
+.catogaries {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+
+  overflow-x: scroll;
+}
+.names h4 {
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgba(25, 25, 117, 0.495);
+  font-size: 30px;
+}
+.names {
+  margin: 0;
+  padding: 0;
+}
+.full_banner  {
+  background-image: url("../../images_js/istockphoto-1300836710-170667a.jpg");
+    width: 100%;
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* object-fit: contain; */
+    /* background-size: cover */
+}
+/* .banner_img{
+    background-image: url('../../png/pngtree-watermelon-drink-fruit-splash-png-image_4353112.png');
+    background-position: top center;
+    background-size: cover;
+} */
